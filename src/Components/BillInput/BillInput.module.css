@@ -1,0 +1,102 @@
+.operationPart{
+ width: 100%;
+ color: var(--darkgrayish-cyan);
+}
+p{
+    margin: 1rem;
+}
+
+.inputSection{
+    width: 100%;
+    margin-top:1rem;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  padding: 0 0.5rem;
+  /* background-color: aquamarine; */
+  color: var(--grayish-cyan);
+  background-color: var( --very-light-grayish-cyan);
+  border: 1px solid transparent;
+}
+
+.error{
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+.inputSection:hover{
+    border: 1px solid var( --strong-cyan);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.inputSection input{
+    height: 30px;
+    width: 100%;
+    display: block;
+    border: none;
+    text-align: right;
+    font-size: 24px;
+    color: var(--grayish-cyan);
+    padding: 0.2rem;
+    outline: none;
+    background-color: var( --very-light-grayish-cyan);  
+}
+
+
+
+
+.percentages{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap:1rem;
+    margin-bottom: 1rem;
+}
+
+.percentage, .percentages input{
+background-color: var( --verydark-cyan);
+color: white;
+font-size: 24px;
+font-weight: 700;
+width: 80%;
+text-align: center;
+padding: 0.6rem 2rem;
+border: none;
+border-radius: 5px;
+/* box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2); */
+}
+
+.percentage:hover{
+    background-color: var(--strong-cyan);
+    color: var(--verydark-cyan);
+}
+
+.percentageActive{
+    background-color: hsl(172, 67%, 31%);
+    color: var(--verydark-cyan);
+}
+
+.percentageHover{
+    background-color: var(--strong-cyan);
+}
+
+.percentages input{
+    font-size: 24px;
+    text-align: center;
+    color: var(--darkgrayish-cyan);
+    border:none;
+    outline: transparent;
+    background-color: var( --very-light-grayish-cyan);  
+}
+
+
+.errordisplay{
+    display: none;
+}
+
+
+.errorMsg{
+   color:red;
+   font-size: 0.7rem;
+   
+}

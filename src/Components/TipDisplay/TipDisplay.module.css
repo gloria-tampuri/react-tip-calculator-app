@@ -1,0 +1,47 @@
+
+.showtip{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    
+}
+
+
+
+.perperson p{
+color: white;
+}
+
+.perperson span{
+    color: var(--grayish-cyan);
+}
+
+.amount{
+    color: var(--strong-cyan);
+}
+
+.reset{
+    display: block;
+    background-color: hsl(183, 98%, 18%);;
+   width: 100%;
+   border: none;
+   padding: 1rem 0;
+   color: var(--verydark-cyan);
+   font-weight: 700;
+   font-size: 1rem;
+   border-radius: 5px;
+    margin-top: 10rem;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.2);
+   
+}
+
+.reset:hover{
+    color:var(--verydark-cyan) ;
+    background-color: var(--strong-cyan) ;
+}
+
+.resetActivate{
+    color: var(--verydark-cyan);
+    background-color: var(--strong-cyan);
+}
